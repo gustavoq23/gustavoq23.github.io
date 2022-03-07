@@ -1,0 +1,154 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width:360px;
+    height:auto;
+    overflow:auto;
+  }
+  
+  div{
+      margin: 3%;
+  }
+
+  h2 {
+      text-align: center;
+  }
+  
+  hr{
+    size: 5px;
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    color: black;
+  }
+
+  p {
+    width: 100%;
+    height: auto;
+    text-align: justify;
+  }
+
+  .buttonAdop {
+    padding: 15px 25px;
+    font-size: 12px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #000000;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 3px #999;
+    float: right;
+  }
+  
+  .buttonAdop:active {
+    background-color: #4e4e4e;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+    float: right;
+  }
+  .imagealign {
+    width: 100%;
+    height: auto;
+  }
+  
+  .sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: -45px;
+    left: -45px;
+    background-color: rgb(17, 17, 17);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 17px;
+    color: #ffffff;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+
+  .mascotas{
+    width: 100%;
+  }
+
+  #acenter{
+    text-align: justify;
+    font-size: 23px;
+    width: auto;
+    height: auto;
+  }
+
+  
+ #pic{
+  width: 70px;
+  height: 70px;
+  float: left;  
+ }
+
+  #content{
+    margin-left: 90px;
+    width: 200px;
+    height: auto;
+  }
+
+#formular{
+    float: left;
+    width: 100%;
+}
+
+#nombre{
+  padding-top: 1fr;
+  width: 100%;
+  background-color: #e4e4e4;
+}
+
+#apellido{
+  padding-top: 1fr;
+  width: 100%;
+  background-color: #e4e4e4;
+}
+
+#numero{
+  padding-top: 1fr;
+  width: 100%;
+  background-color: #e4e4e4;
+}
+
+#direcion{
+  padding-top: 1fr;
+  width: 100%;
+  background-color: #e4e4e4;
+}
+
+#ocupacion{
+  padding-top: 1fr;
+  width: 100%;
+  background-color: #e4e4e4;
+}
+
+#data{
+  padding-top: 1fr;
+  width: 100%;
+  background-color: #e0e0e05b;
+}
+
+
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
